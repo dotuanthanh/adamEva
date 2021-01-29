@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button onclick="Eat()">Eat</button>
+</body>
+</html>
+<script>
+    let Apple = function (weight) {
+        this.weight = weight
+        this.decrease = function () {
+        if(this.weight >=1){
+            return this.weight -= 1
+        }
+        else console.log('Het tao roi an cc')}
+        this.getWeight = function () {
+            return this.decrease()
+        }
+    }
+    let human = function (name, weight) {
+        this.weight = weight
+        this.name = name
+        this.say = function () {
+            return console.log('Fuck you')
+        }
+        this.eat = function () {
+        if(fr.getWeight()>=1){
+           return  this.weight += 1
+        }}
+        this.checkApple = function () {
+            return fr.getWeight()
+        }
+    }
+    fr = new Apple(20)
+    Adam = new human("Adam nee", 60)
+    console.log(Adam.name)
+   console.log(Adam.say())
+   console.log(Adam.weight)
+    function Eat() {
+        console.log(Adam.eat())
+        console.log(Adam.checkApple())
+    }
+</script>
